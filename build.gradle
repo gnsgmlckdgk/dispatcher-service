@@ -28,6 +28,12 @@ dependencies {
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
+
+	// 스프링 클라우드 스트림 테스트
+	testImplementation 'org.springframework.cloud:spring-cloud-stream-test-binder'
+	testImplementation 'org.springframework.integration:spring-integration-test'
+	testImplementation 'org.springframework.cloud:spring-cloud-stream'
+
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
